@@ -1,0 +1,18 @@
+.template-header{
+    background: none;
+}
+.templates-card .stax--card__body p{
+    font-size: 20px;
+    line-height: 29px;
+    height: 100px;
+}
+.templates-card .stax--card__body h2{
+    font-size: 25px;
+}
+.templtes-main .templates-card{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    padding: 20px 100px;
+    width: 1000px;
+    margin: auto auto;
+}

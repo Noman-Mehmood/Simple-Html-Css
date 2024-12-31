@@ -1,0 +1,64 @@
+.contact_header{
+    background: linear-gradient(rgba(0 , 0, 0, .4), rgba(0, 0, 0, .4)), url(/assets/images/contact.images/banner-contact-01-2048x1195.jpg);
+    height: 600px;
+}
+
+.contact_hero-part{
+    margin: auto auto;
+    padding: 0;
+    text-align: center;
+    z-index: 1;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease-in-out;
+}
+form input{
+    width:900px;
+     padding: 15px 20px;
+     position: relative;
+     outline: none;
+     border: 2px solid rgb(221,221,221) ;
+     border-radius: 10px;
+}
+
+form label{
+    position: absolute;
+    left: 300px;
+    margin-top: 10px;
+    color: rgb(125,132,134);
+}
+
+
+
+
+input:focus + label,
+input:valid + label
+
+{
+   transform: translate(-10px , -35px) scale(0.888);
+   
+   color: rgb(61,189,166);
+}
+input:focus
+,.discription:focus
+{
+    border: 2px solid rgb(61,189,166);
+}
+input[type="text"]{
+   color: rgb(125,132,134);
+}
+
+
+.discription{
+    width: 900px;
+    height: 200px;
+    outline: none;
+    border: 2px solid rgb(221,221,221) ;
+    border-radius: 10px;
+    padding: 15px 20px;
+    color: rgb(125,132,134);
+}
